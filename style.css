@@ -1,0 +1,235 @@
+:root{
+    --teal-color: #1e868d;
+    --teal-light: #1C7C83;
+    --teal-dark: #1A6F73;
+    --teal-darker:#155B5F;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --gray-color: #808080;
+    --gray-light: #D3D3D3;
+    --card-color: #2f5f64
+}
+
+.container-fluid {
+  background-color: var(--teal-color);
+}
+
+.navbar-toggler {
+  color: var(--white-color);
+  border: var(--teal-color);
+}
+.hero {
+  background-color: #1e868d;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+.about-me {
+  background-color: #1C7C83;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0;
+  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+  --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-icon-bg: url(
+    data:image/svg + xml,
+    %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 30 30"%3e%3cpathstroke="rgba%2833, 37, 41, 0.75%29"stroke-linecap="round"stroke-miterlimit="10"stroke-width="2"d="M4 7h22M4 15h22M4 23h22"/%3e%3c/svg%3e
+  );
+  --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+  --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+.btn-dark {
+  margin-top: 13px;
+  --bs-btn-border-radius: 12px;
+  --bs-btn-width: 100%;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #212529;
+  --bs-btn-border-color: #212529;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #424649;
+  --bs-btn-hover-border-color: #373b3e;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4d5154;
+  --bs-btn-active-border-color: #373b3e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+.nav-link {
+  color: var(--white-color);
+  padding-top: 22px;
+  margin-right: 10px;
+}
+.nav-link:hover {
+  color: #2c4d52;
+}
+
+.dropdown-item {
+  color: var(--white-color);
+}
+.introduction {
+  width: auto;
+}
+
+.container-hero {
+  width: 88%;
+}
+.btn-hero:hover{
+    color: rgb(44, 77, 82);
+    
+}
+.btn-hero {
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-family: ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5;
+    --bs-btn-color: var(--bs-body-color);
+    --bs-btn-bg: transparent;
+    --bs-btn-border-width: var(--bs-border-width);
+    --bs-btn-border-color: transparent;
+    --bs-btn-border-radius: var(--bs-border-radius);
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+    --bs-btn-disabled-opacity: 0.65;
+    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    background-color: var(--bs-btn-bg);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.about-me-header{
+    display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+.square{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin: 48px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #E5E7EB;
+    color: #4B5563;
+    border-radius: 12px;
+}
+.container-skills{
+    width: 100%;
+    
+    justify-content: center;
+}
+.skills-item{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+
+.card-skills{
+    margin-left: 18.62%;
+    margin-right: 18.62%;
+    
+}
+.card-work{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 48px;
+}
+
+
+.items{
+    width: 100%;
+}
+.image-container,
+.body-container {
+  width: 50%;
+}
+.testimonials-card{
+  width: 30%;
+  background-color: var(--card-color);
+  color: var(--white-color);
+}
+
+.work-img{
+  width: 60%;
+}
+
+.avatar{
+  width: fit-content;
+  border-radius: 50%;
+  background-color: #9CA3AF;
+  margin-top: 48px;
+}
+.contact-info{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-6 {
+    width: 50%;
+  }
+  
+}
+@media (max-width: 991.98px) {
+  .image-container,
+  .body-container {
+    width: 100%;
+  }
+  .work-img{
+    width: 50%;
+  }
+}
