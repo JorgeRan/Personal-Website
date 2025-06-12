@@ -20,7 +20,7 @@ Welcome to my personal website! This is a custom-built portfolio designed to sho
 - Dynamic sections for blog, experience, and education
 
 ## 🖥️ Live Demo
-[👉 Visit my site](https://yourusername.github.io/your-portfolio/)
+[👉 Visit my site](https://jorgeran.github.io/Personal-Website/)
 
 ---
 
